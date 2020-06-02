@@ -1,5 +1,5 @@
-import React, { FC, Fragment } from 'react'
 /** @jsx jsx */
+import React, { FC, Fragment } from 'react'
 import { css, jsx } from '@emotion/core'
 
 export const Social: FC = () => {
