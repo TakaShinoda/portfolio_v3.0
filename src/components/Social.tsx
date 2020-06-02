@@ -3,15 +3,21 @@ import { FC, Fragment } from 'react'
 import { css, jsx } from '@emotion/core'
 
 export const Social: FC = () => {
+  const liStyle = css({
+    color: "#fff"
+  })
+
   const socialLink = css({
     color: '#2196f3',
     textDecoration: 'underline',
   })
 
+  
+
   return (
     <Fragment>
       <ul>
-        <li>
+        <li css={liStyle}>
           <a
             css={socialLink}
             href="https://github.com/TakaShinoda"
@@ -21,7 +27,7 @@ export const Social: FC = () => {
             GitHub
           </a>
         </li>
-        <li>
+        <li css={liStyle}>
           <a
             css={socialLink}
             href="https://takashinoda.hatenablog.com/archive"
@@ -31,7 +37,7 @@ export const Social: FC = () => {
             技術ブログ(はてな)
           </a>
         </li>
-        <li>
+        <li css={liStyle}>
           <a
             css={socialLink}
             href="https://speakerdeck.com/takashinoda"
@@ -41,7 +47,7 @@ export const Social: FC = () => {
             Speaker Deck
           </a>
         </li>
-        <li>
+        <li css={liStyle}>
           <a
             css={socialLink}
             href="https://twitter.com/tttttt_621_s"
