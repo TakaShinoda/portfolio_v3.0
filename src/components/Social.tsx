@@ -7,7 +7,7 @@ export const Social: FC = () => {
     color: "#fff"
   })
 
-  const socialLink = css({
+  const linkStyle = css({
     color: '#2196f3',
     textDecoration: 'underline',
   })
@@ -19,7 +19,7 @@ export const Social: FC = () => {
       <ul>
         <li css={liStyle}>
           <a
-            css={socialLink}
+            css={linkStyle}
             href="https://github.com/TakaShinoda"
             target="_black"
             rel="noopener noreferrer"
@@ -29,7 +29,7 @@ export const Social: FC = () => {
         </li>
         <li css={liStyle}>
           <a
-            css={socialLink}
+            css={linkStyle}
             href="https://takashinoda.hatenablog.com/archive"
             target="_black"
             rel="noopener noreferrer"
@@ -39,7 +39,7 @@ export const Social: FC = () => {
         </li>
         <li css={liStyle}>
           <a
-            css={socialLink}
+            css={linkStyle}
             href="https://speakerdeck.com/takashinoda"
             target="_black"
             rel="noopener noreferrer"
@@ -49,7 +49,7 @@ export const Social: FC = () => {
         </li>
         <li css={liStyle}>
           <a
-            css={socialLink}
+            css={linkStyle}
             href="https://twitter.com/tttttt_621_s"
             target="_black"
             rel="noopener noreferrer"
