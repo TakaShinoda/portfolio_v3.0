@@ -1,14 +1,21 @@
+/** @jsx jsx */
 import React, { FC } from 'react'
 import { VerticalTimeline } from 'react-vertical-timeline-component'
 import { TimeLineShool } from './TimeLineShool'
 import { TimeLine } from './TimeLine'
+import { css, jsx } from '@emotion/core'
 
 export const CurriculumVitae: FC = () => {
+  const linkStyle = css({
+    color: '#2196f3',
+  })
+
   return (
-    <>
+    <React.Fragment>
       <h2 className="center">
         詳細は
         <a
+          css={linkStyle}
           href="https://github.com/TakaShinoda/curriculum-vitae"
           target="_black"
           rel="noopener noreferrer"
@@ -36,6 +43,6 @@ export const CurriculumVitae: FC = () => {
           subtitle="工学部 情報システム工学科"
         />
       </VerticalTimeline>
-    </>
+    </React.Fragment>
   )
 }
