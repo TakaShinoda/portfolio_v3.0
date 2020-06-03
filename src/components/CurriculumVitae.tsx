@@ -10,9 +10,14 @@ export const CurriculumVitae: FC = () => {
     color: '#2196f3',
   })
 
+  const hStyle = css({
+    textAlign: 'center',
+    color: '#fff'
+  })
+
   return (
     <React.Fragment>
-      <h2 className="center">
+      <h2 css={hStyle}>
         詳細は
         <a
           css={linkStyle}

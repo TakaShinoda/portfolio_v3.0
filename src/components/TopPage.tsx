@@ -15,9 +15,13 @@ export const TopPage: FC = () => {
     color: '#2196f3',
   })
 
+  const hStyle = css({
+    color: '#fff'
+  })
+
   return (
     <React.Fragment>
-      <h1>Shinoda Takahiro</h1>
+      <h1 css={hStyle}>Shinoda Takahiro</h1>
       <ul>
         <li css={liStyle}>
           <Button
