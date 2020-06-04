@@ -34,7 +34,7 @@ export const CurriculumVitae: FC = () => {
           date="2020/04 - present"
           title="株式会社イデア・レコード"
           subtitle="エンジニア"
-          content="主にHTML, CSS, CakePHP, Vue.jsを用いたwebページの作成"
+          content="主にHTML, CSS, CakePHP, Vue.jsを用いたフロントエンド開発"
         />
         <TimeLineShool
           date="2018/04 - 2020/03"
