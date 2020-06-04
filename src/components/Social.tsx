@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { FC, Fragment } from 'react'
+import React, { FC } from 'react'
 import { css, jsx } from '@emotion/core'
 
 export const Social: FC = () => {
@@ -15,7 +15,7 @@ export const Social: FC = () => {
   
 
   return (
-    <Fragment>
+    <React.Fragment>
       <ul>
         <li css={liStyle}>
           <a
@@ -58,6 +58,6 @@ export const Social: FC = () => {
           </a>
         </li>
       </ul>
-    </Fragment>
+    </React.Fragment>
   )
 }
